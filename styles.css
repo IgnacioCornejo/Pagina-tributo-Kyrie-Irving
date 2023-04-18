@@ -69,6 +69,7 @@ q {
 
 h2 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .icon-size {
@@ -108,4 +109,18 @@ h3 {
   width: 100%; /* occupy the full width of the container */
   height: 100%; /* occupy the full height of the container */
   object-fit: cover; /* scale the image to cover the container, while preserving its aspect ratio */
+}
+
+#highlights {
+  background-color: #f5f5f5;
+}
+
+.info-logo {
+  width: 25px;
+  height: auto;
+}
+
+.info-ctn {
+  display: flex;
+  justify-content: center;
 }
