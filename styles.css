@@ -100,15 +100,15 @@ h3 {
 }
 
 .image-container {
-  height: 350px; /* set a fixed height for the container */
-  display: flex; /* use flexbox to align the images */
-  align-items: center; /* center the images vertically */
+  height: 350px;
+  display: flex;
+  align-items: center;
 }
 
 .image-container img {
-  width: 100%; /* occupy the full width of the container */
-  height: 100%; /* occupy the full height of the container */
-  object-fit: cover; /* scale the image to cover the container, while preserving its aspect ratio */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #highlights {
@@ -123,4 +123,9 @@ h3 {
 .info-ctn {
   display: flex;
   justify-content: center;
+}
+
+.btn {
+  background-color: #dd1616;
+  border-color: #dd1616;
 }

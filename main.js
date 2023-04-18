@@ -7,3 +7,12 @@ window.addEventListener("scroll", function () {
     navbar.classList.remove("shadow");
   }
 });
+
+const links = document.querySelectorAll(".nav-link");
+const navbarToggler = document.getElementById("navbar-toggler");
+
+links.forEach((link) => {
+  link.addEventListener("click", () => {
+    navbarToggler.click();
+  });
+});
