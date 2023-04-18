@@ -16,3 +16,11 @@ links.forEach((link) => {
     navbarToggler.click();
   });
 });
+
+const buttons = document.querySelectorAll(".btn");
+buttons.forEach((button) => {
+  button.addEventListener("click", function () {
+    const url = button.getAttribute("data-url");
+    window.open(url, "_blank");
+  });
+});
